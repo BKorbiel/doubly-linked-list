@@ -8,12 +8,11 @@
 ## General Information
 This is the structure of a single node: <br/>
 `
-struct MY_LIST { <br />
-    long long int* data; <br />
-    MY_LIST* prev; <br />
-    MY_LIST* next; <br />
-}; <br />
-`
+struct MY_LIST {        
+    long long int* data;            
+    MY_LIST* prev;        
+    MY_LIST* next;        
+};                        `
 "Data" field is pointer to long long int. "Prev" and "next" fields are pointers to neighbour nodes. <br/> 
 The program uses dynamic memory and doesn't cause memory leaks. <br/>
 The list is represented by its first node.
