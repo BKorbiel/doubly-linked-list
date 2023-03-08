@@ -1,4 +1,4 @@
-# Doubly Linked List of pointers
+# Doubly Linked List
 > This project is simple implementation of doubly linked list with several functions.
 
 ## Table of Contents
